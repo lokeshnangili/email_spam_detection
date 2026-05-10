@@ -41,6 +41,13 @@ if __name__ == '__main__':
 
     print(f"Message: '{test_message_ham}' -> Prediction: {predict_spam(test_message_ham)}")
     print(f"Message: '{test_message_spam}' -> Prediction: {predict_spam(test_message_spam)}")
+    import streamlit as st
+
+st.title("Spam Detection App")
+st.write("Enter a message to check spam")
+import streamlit as st
+
+st.write("App is running...")
 
     # Example of how you might use it in a web framework (e.g., Flask)
     # from flask import Flask, request, jsonify
